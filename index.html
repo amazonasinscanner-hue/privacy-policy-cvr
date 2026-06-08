@@ -24,30 +24,35 @@
     <div class="header">
         <img src="icon128.png" alt="Amazon CVR Tool Icon" class="thumbnail">
         <h1>Privacy Policy for Amazon CVR Tool</h1>
-        <p class="date">Effective Date: April 17, 2026</p>
+        <p class="date">Effective Date: June 08, 2026</p>
     </div>
 
-    <p>This Privacy Policy describes how the <strong>Amazon CVR Tool</strong> ("the Extension") handles user information.</p>
+    <p>This Privacy Policy describes how the <strong>Amazon CVR Tool</strong> ("the Extension") handles user information in compliance with the Chrome Web Store Developer Program Policies.</p>
 
     <h2>1. Information Collection and Use</h2>
-    <p>The Amazon CVR Tool does not collect, store, or transmit any personal or sensitive user data.</p>
+    <p>The Amazon CVR Tool is designed with a "Privacy First" approach. It does not collect, store, or transmit any personal or sensitive user data to external servers.</p>
     <ul>
-        <li><strong>No Data Transmission:</strong> All calculations (Conversion Rate) are performed locally within your browser. No data is sent to external servers or third parties.</li>
-        <li><strong>No Personal Information:</strong> We do not collect names, email addresses, physical addresses, or any other identifying information.</li>
-        <li><strong>Permission Usage:</strong> The Extension requires the <code>activeTab</code> and <code>scripting</code> permissions solely to read the numerical values of "Clicks" and "Purchases" on the Amazon Advertising dashboard to provide real-time CVR badges.</li>
+        <li><strong>Local Processing:</strong> All data parsing and calculations (Conversion Rate) are performed entirely within your local browser environment. No data from your Amazon Advertising account is ever sent to us or any third party.</li>
+        <li><strong>No Personal Information:</strong> We do not collect names, email addresses, login credentials, or any other identifying information.</li>
+        <li><strong>Permission Usage:</strong>
+            <ul>
+                <li><code>activeTab</code> & <code>scripting</code>: Used solely to read the numerical values of "Orders" and "Clicks" on your active Amazon Advertising dashboard to calculate and inject CVR badges.</li>
+                <li><code>storage</code>: Used exclusively to save your local preferences, such as "Auto Mode" and "Color Coding" settings.</li>
+            </ul>
+        </li>
     </ul>
 
     <h2>2. Data Security</h2>
-    <p>Because the Extension does not collect or transmit any data, your information remains entirely within your own local browser environment. We follow the Principle of Least Privilege by only requesting the minimum permissions necessary.</p>
+    <p>Because the Extension operates locally and does not transmit data, your advertising performance data remains securely within your own Amazon session. We use <code>MutationObserver</code> technology to detect table updates in real-time without ever needing to export or "read" your data outside of the immediate display context.</p>
 
     <h2>3. Third-Party Access</h2>
-    <p>We do not share, sell, or trade any user information with third parties, advertisers, or any other entities.</p>
+    <p>We do not share, sell, or trade any user information with third parties, advertisers, or any other entities. The extension does not use any third-party analytics or tracking scripts.</p>
 
     <h2>4. Compliance with Google’s Limited Use Policy</h2>
-    <p>This Extension complies with the Chrome Web Store User Data Policy, including the Limited Use requirements. It only uses data to provide the primary user-facing feature (calculating CVR) and does not use data for any other purpose.</p>
+    <p>This Extension complies with the Chrome Web Store User Data Policy, including the Limited Use requirements. It only accesses the minimum necessary data to provide the primary user-facing feature (calculating and displaying CVR) and does not use this data for any other purpose.</p>
 
     <h2>5. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. Any changes will be reflected by the "Effective Date" at the top of this document.</p>
+    <p>We may update this Privacy Policy from time to time to reflect changes in the Extension's features or legal requirements. Any changes will be reflected by the "Effective Date" at the top of this document.</p>
 
     <div class="contact-box">
         <strong>6. Contact Us</strong><br>
